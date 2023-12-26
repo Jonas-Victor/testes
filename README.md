@@ -1,4 +1,25 @@
-# Nunes Sportes - Configuração do Banco de Dados CRUD
+# Nunes Sports - Sistema de Catálogo de Produtos
+
+O **Nunes Sports** é um sistema de catálogo desenvolvido para a gestão completa dos produtos da loja. Este sistema permite aos usuários registrar novos itens, incluindo informações detalhadas como nome, descrição, código de identificação e preço de cada produto.
+
+## Funcionalidades Principais
+
+- **Cadastro de Produtos:** Adicione novos produtos ao catálogo, fornecendo informações essenciais como nome, descrição, código único e preço.
+- **Edição e Atualização:** Capacidade de editar informações dos produtos já registrados para manter os dados precisos e atualizados.
+- **Remoção de Produtos:** Exclua produtos do catálogo quando necessário.
+
+## Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **Node.js:** Utilizado para o desenvolvimento do backend e lógica de servidor.
+- **React.js:** Framework JavaScript utilizado para a construção do frontend do sistema.
+- **MySQL:** Banco de dados utilizado para armazenar e gerenciar os dados dos produtos.
+
+
+# Configuração e Execução do Sistema Nunes Sport :
+
+## Configuração do Banco de Dados CRUD
 
 Este é um guia passo a passo para configurar o banco de dados MySQL usando o MySQL Workbench 8.0 para o projeto Nunes Sportes.
 
@@ -130,6 +151,58 @@ Após iniciar com sucesso, a API estará disponível em http://localhost:8800 (o
 - Certifique-se de que o banco de dados está configurado conforme as instruções anteriores para que a API funcione corretamente.
 - Este guia assume que não são necessárias variáveis de ambiente adicionais para a configuração da API.
 
+---
+
+# Iniciando com Create React App (Frontend)
+
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app).
+
+## Instalação
+
+Para começar, certifique-se de ter o Node.js instalado em seu ambiente. Em seguida, no diretório do projeto, execute:
+
+### `npm install`
+
+Isso instalará as dependências necessárias para o projeto. Certifique-se de ter uma conexão de internet estável para concluir este processo.
+
+ou
+
+### `yarn`
+
+Se você preferir usar o Yarn, pode executar este comando para instalar as dependências.
+
+## Executando o Projeto
+
+Após a instalação das dependências, você pode executar o projeto com os seguintes comandos:
+
+### `npm start`
+
+Este comando inicia o aplicativo no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o projeto.
+
+A página será recarregada automaticamente sempre que você fizer alterações no código.\
+Você também poderá ver quaisquer erros de lint no console.
+
+ou
+
+### `yarn start`
+
+Se você optou por usar o Yarn, este comando iniciará o aplicativo da mesma maneira.
+
+### `npm test`
+
+Inicia o executor de testes no modo interativo de observação.\
+Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações.
+
+### `npm run build`
+
+Compila o aplicativo para produção na pasta `build`.\
+Ele agrupa o React corretamente no modo de produção e otimiza a construção para obter o melhor desempenho.
+
+A compilação é minificada e os nomes de arquivo incluem os hashes.\
+Seu aplicativo está pronto para ser implantado!
+
+Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
 
 
