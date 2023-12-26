@@ -34,9 +34,6 @@ Após criar o banco de dados, selecione-o para realizar operações nele:
 USE crud;
 ```
 
-```sql
-```
-
 ### 5. Criando a Tabela 'produtos'
 Agora, vamos criar a tabela 'produtos' com os campos especificados:
 ```sql
@@ -94,5 +91,45 @@ Substitua 'nunes123' pela nova senha desejada para o usuário 'root'.
 
 ### 9. Finalizando
 Você configurou o banco de dados CRUD com a tabela 'produtos'.
+
+---
+
+## Rodando a API - Backend do Projeto Nunes Sportes
+
+Este guia ajudará você a executar a API (backend) do projeto Nunes Sportes localmente.
+
+### Passos
+
+10 . **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/nunes-sportes-backend.git
+   ```
+Apos clonar o repositorio entre no arqui api
+
+  ```bash
+  cd api
+  ```
+11 . Instale as dependências:
+
+```bash
+npm install # ou yarn install
+```
+
+12 . Execute a API:
+
+```bash
+npm start # ou yarn start
+```
+13 . Testando a API:
+
+Após iniciar com sucesso, a API estará disponível em http://localhost:8800 (ou na porta configurada). Use ferramentas como Postman, cURL ou seu navegador para acessar e testar os endpoints.
+
+### Observações
+
+- Certifique-se de que o banco de dados está configurado conforme as instruções anteriores para que a API funcione corretamente.
+- Este guia assume que não são necessárias variáveis de ambiente adicionais para a configuração da API.
+
+
 
 
